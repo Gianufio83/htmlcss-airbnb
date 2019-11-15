@@ -116,3 +116,8 @@ background-color: #778899;
   font-size: 50px;
   text-shadow: 2px 2px 4px black;
 }
+.box-2:hover {
+  background-color: white;
+  cursor: pointer;
+  opacity: 0.1
+}
