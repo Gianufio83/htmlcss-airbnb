@@ -3,17 +3,18 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+background-color: #778899;
+}
 .container {
-  width: 100%;
+  width: 50%
   margin:auto;
   padding:10px;
-  background-color: lightblue;
-
   }
 .box {
   background-image: url(../img/roma-colosseo.jpg);
   border-style: 10px groove black;
-  margin:auto;
+  margin: auto;
   padding: -2px;
   width: 50%;
   height: 50vh;
@@ -28,7 +29,7 @@
   height: 100%;
   width: 100%;
   z-index: 1;
-  background-color: rgba(0,0,0,0.1);
+  background-color: rgba(0,0,0,0.2);
 }
 .city {
   position: absolute;
@@ -42,5 +43,76 @@
 .box:hover {
   background-color: white;
   cursor: pointer;
-  opacity: 0.9;
+  opacity: 0.1;
+}
+.container-1 {
+  width: 100%;
+  padding: 10px;
+  margin: auto;
+}
+.box-1 {
+  background-image: url(https://siviaggia.files.wordpress.com/2018/08/copenaghen.jpg);
+  border-style: 10px groove black;
+  padding: -2px;
+  width: 100%;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-size: 90% 90%;
+  background-color: white;
+  position: relative;
+}
+.overlay-1 {
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  background-color: rgba(0,0,0,0.1);
+}
+.city-2 {
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 50px;
+  text-shadow: 2px 2px 4px black;
+}
+.box-1:hover {
+  background-color: white;
+  cursor: pointer;
+  opacity: 0.1
+}
+.continer-2 {
+  width: 100%;
+  padding: 10px;
+  margin: auto;
+}
+.box-2 {
+  background-image: url(../img/tokyio-strade.jpg);
+  border-style: 10px groove black;
+  padding: -2px;
+  width: 100%;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-size: 90% 90%;
+  background-color: white;
+  position: relative;
+}
+.overlay-2 {
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  background-color: rgba(0,0,0,0.2)
+}
+.city-3 {
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 50px;
+  text-shadow: 2px 2px 4px black;
 }
