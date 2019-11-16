@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  background-color: grey;
+  height: 270px;
+}
+ul.menu {
+  list-style: none;
+  text-align: center;
+  line-height: 90px;
+}
+ul.menu a {
+  text-decoration: none;
+  color: rgb(232, 179, 20);
+}
+ul.menu li {
+  display: inline-block;
+  padding:0,15px;
+}
+ul.menu li.active {
+  border-bottom: 2px solid lightgreen;
+}
+ul.menu .logo {
+  with:100px;
+  vertical-align: middle;
+}
+ul.menu li:hover {
+  background-color: lightgrey;
+  border-bottom: 2px solid lightgreen;
+}

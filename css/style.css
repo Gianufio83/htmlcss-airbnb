@@ -6,8 +6,31 @@
 body {
 background-color: #778899;
 }
+nav {
+  background-color: grey;
+  height: 90px;
+}
+ul.menu {
+  list-style: none;
+  text-align: center;
+  line-height: 90px;
+}
+ul.menu a {
+  text-decoration: none;
+  color: rgb(232, 179, 20);
+}
+ul.menu li {
+  display: inline-block;
+}
+ul.menu li.active {
+  border-bottom: 2px solid lightgreen;
+}
+ul.menu .logo {
+  with:100px;
+  vertical-align: middle;
+}
 .container {
-  width: 50%
+  width: 100%
   margin:auto;
   padding:10px;
   }
@@ -24,12 +47,19 @@ background-color: #778899;
   background-size: 90% 90%;
   background-color: white;
   position: relative;
+  display: block;
 }
 .overlay {
-  height: 100%;
-  width: 100%;
-  z-index: 1;
-  background-color: rgba(0,0,0,0.2);
+   height: 100%;
+   width: 100%;
+   background-color:rgba (0,0,0,0.2);
+
+ }
+ .box:hover {
+   background-color: white;
+   cursor: pointer;
+   display: block;
+   z-index: 1;
 }
 .city {
   position: absolute;
@@ -40,10 +70,6 @@ background-color: #778899;
   font-size: 50px;
   text-shadow: 2px 2px 4px black;
 }
-.box:hover {
-  background-color: white;
-  cursor: pointer;
-  opacity: 0.1;
 }
 .container-1 {
   width: 100%;
@@ -66,8 +92,8 @@ background-color: #778899;
 .overlay-1 {
   height: 100%;
   width: 100%;
-  z-index: 1;
-  background-color: rgba(0,0,0,0.1);
+  background-color:rgba (0,0,0,0.2);
+
 }
 .city-2 {
   position: absolute;
@@ -102,10 +128,10 @@ background-color: #778899;
   position: relative;
 }
 .overlay-2 {
-  height: 100%;
+  hheight: 100%;
   width: 100%;
-  z-index: 1;
-  background-color: rgba(0,0,0,0.2)
+  background-color:rgba (0,0,0,0.2);
+
 }
 .city-3 {
   position: absolute;
